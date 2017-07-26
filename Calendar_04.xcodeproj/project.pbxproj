@@ -14,6 +14,9 @@
 		1410601F1F25B9660072E3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1410601D1F25B9660072E3B7 /* LaunchScreen.storyboard */; };
 		1410602A1F25B9660072E3B7 /* Calendar_04Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141060291F25B9660072E3B7 /* Calendar_04Tests.swift */; };
 		141060351F25B9660072E3B7 /* Calendar_04UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141060341F25B9660072E3B7 /* Calendar_04UITests.swift */; };
+		141060461F25F5140072E3B7 /* audiofiles in Resources */ = {isa = PBXBuildFile; fileRef = 141060451F25F5140072E3B7 /* audiofiles */; };
+		141D86B11F288BDC000941EC /* RobotoTTF in Resources */ = {isa = PBXBuildFile; fileRef = 141D86B01F288BDC000941EC /* RobotoTTF */; };
+		143C11CB1F270EDE00BF4576 /* score.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143C11CA1F270EDD00BF4576 /* score.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		141060301F25B9660072E3B7 /* Calendar_04UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calendar_04UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141060341F25B9660072E3B7 /* Calendar_04UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_04UITests.swift; sourceTree = "<group>"; };
 		141060361F25B9660072E3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141060451F25F5140072E3B7 /* audiofiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audiofiles; path = ../../../Downloads/audiofiles; sourceTree = "<group>"; };
+		141D86B01F288BDC000941EC /* RobotoTTF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RobotoTTF; sourceTree = "<group>"; };
+		143C11CA1F270EDD00BF4576 /* score.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = score.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		141060131F25B9660072E3B7 /* Calendar_04 */ = {
 			isa = PBXGroup;
 			children = (
+				141D86B01F288BDC000941EC /* RobotoTTF */,
+				141060451F25F5140072E3B7 /* audiofiles */,
 				141060141F25B9660072E3B7 /* AppDelegate.swift */,
 				141060161F25B9660072E3B7 /* ViewController.swift */,
 				141060181F25B9660072E3B7 /* Main.storyboard */,
 				1410601B1F25B9660072E3B7 /* Assets.xcassets */,
 				1410601D1F25B9660072E3B7 /* LaunchScreen.storyboard */,
 				141060201F25B9660072E3B7 /* Info.plist */,
+				143C11CA1F270EDD00BF4576 /* score.plist */,
 			);
 			path = Calendar_04;
 			sourceTree = "<group>";
@@ -235,6 +244,9 @@
 				1410601F1F25B9660072E3B7 /* LaunchScreen.storyboard in Resources */,
 				1410601C1F25B9660072E3B7 /* Assets.xcassets in Resources */,
 				1410601A1F25B9660072E3B7 /* Main.storyboard in Resources */,
+				141060461F25F5140072E3B7 /* audiofiles in Resources */,
+				141D86B11F288BDC000941EC /* RobotoTTF in Resources */,
+				143C11CB1F270EDE00BF4576 /* score.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				1410603B1F25B9660072E3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1410603C1F25B9660072E3B7 /* Build configuration list for PBXNativeTarget "Calendar_04Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				1410603E1F25B9660072E3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1410603F1F25B9660072E3B7 /* Build configuration list for PBXNativeTarget "Calendar_04UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				141060411F25B9660072E3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
