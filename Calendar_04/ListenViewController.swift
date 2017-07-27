@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 
-class ViewController: UIViewController {
+class ListenViewController: UIViewController {
     
     // 커밋용 주석
 
@@ -121,8 +121,8 @@ class ViewController: UIViewController {
         timeLimitAnimation ()
 //        gameOver()
         
-        playSound()
-
+       
+        perform(#selector(ListenViewController.playSound), with: nil, afterDelay: 0.5)
         
     }
     
@@ -239,7 +239,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: Double(0.5), animations: {self.DisplayDigit.frame.origin.y += -45}) {
             (true) in
             self.singleResultLightAnimation()
-//            self.DisplayDigitTopConstraint.constant = 20
+ //           self.DisplayDigitTopConstraint.constant = self.DisplayDigitTopConstraint.constant - 45
 //            self.DisplayDigitBottomConstraint.constant = 100
         }
     }
@@ -276,12 +276,14 @@ class ViewController: UIViewController {
     
     func timeLimitAnimation () {
 
-        UIView.animate (withDuration: Double(120),animations: {
+        UIView.animate (withDuration: Double(5),animations: {
             self.TimeLimitLeadingConstraint.constant = -375
             self.TimeLimitTrailingConstraint.constant = 375
             self.view.layoutIfNeeded()
-            }
-        )
+        }) {(true) in
+            // 전체 결과값이 나옴
+        }
+        
     }
     
     

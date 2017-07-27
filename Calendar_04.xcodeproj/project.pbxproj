@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		141060151F25B9660072E3B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141060141F25B9660072E3B7 /* AppDelegate.swift */; };
-		141060171F25B9660072E3B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141060161F25B9660072E3B7 /* ViewController.swift */; };
+		141060171F25B9660072E3B7 /* ListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141060161F25B9660072E3B7 /* ListenViewController.swift */; };
 		1410601A1F25B9660072E3B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141060181F25B9660072E3B7 /* Main.storyboard */; };
 		1410601C1F25B9660072E3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1410601B1F25B9660072E3B7 /* Assets.xcassets */; };
 		1410601F1F25B9660072E3B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1410601D1F25B9660072E3B7 /* LaunchScreen.storyboard */; };
@@ -17,6 +17,7 @@
 		141060461F25F5140072E3B7 /* audiofiles in Resources */ = {isa = PBXBuildFile; fileRef = 141060451F25F5140072E3B7 /* audiofiles */; };
 		141D86B11F288BDC000941EC /* RobotoTTF in Resources */ = {isa = PBXBuildFile; fileRef = 141D86B01F288BDC000941EC /* RobotoTTF */; };
 		143C11CB1F270EDE00BF4576 /* score.plist in Resources */ = {isa = PBXBuildFile; fileRef = 143C11CA1F270EDD00BF4576 /* score.plist */; };
+		148EA7361F29A74C00E98F73 /* SpeakingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148EA7351F29A74C00E98F73 /* SpeakingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		141060111F25B9660072E3B7 /* Calendar_04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar_04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141060141F25B9660072E3B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		141060161F25B9660072E3B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		141060161F25B9660072E3B7 /* ListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenViewController.swift; sourceTree = "<group>"; };
 		141060191F25B9660072E3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1410601B1F25B9660072E3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1410601E1F25B9660072E3B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		141060451F25F5140072E3B7 /* audiofiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = audiofiles; path = ../../../Downloads/audiofiles; sourceTree = "<group>"; };
 		141D86B01F288BDC000941EC /* RobotoTTF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RobotoTTF; sourceTree = "<group>"; };
 		143C11CA1F270EDD00BF4576 /* score.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = score.plist; sourceTree = "<group>"; };
+		148EA7351F29A74C00E98F73 /* SpeakingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +108,13 @@
 				141D86B01F288BDC000941EC /* RobotoTTF */,
 				141060451F25F5140072E3B7 /* audiofiles */,
 				141060141F25B9660072E3B7 /* AppDelegate.swift */,
-				141060161F25B9660072E3B7 /* ViewController.swift */,
+				141060161F25B9660072E3B7 /* ListenViewController.swift */,
 				141060181F25B9660072E3B7 /* Main.storyboard */,
 				1410601B1F25B9660072E3B7 /* Assets.xcassets */,
 				1410601D1F25B9660072E3B7 /* LaunchScreen.storyboard */,
 				141060201F25B9660072E3B7 /* Info.plist */,
 				143C11CA1F270EDD00BF4576 /* score.plist */,
+				148EA7351F29A74C00E98F73 /* SpeakingViewController.swift */,
 			);
 			path = Calendar_04;
 			sourceTree = "<group>";
@@ -272,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141060171F25B9660072E3B7 /* ViewController.swift in Sources */,
+				148EA7361F29A74C00E98F73 /* SpeakingViewController.swift in Sources */,
+				141060171F25B9660072E3B7 /* ListenViewController.swift in Sources */,
 				141060151F25B9660072E3B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
