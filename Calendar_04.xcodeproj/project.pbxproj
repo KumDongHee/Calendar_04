@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					141060101F25B9660072E3B7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A2USTFU7E7;
 						ProvisioningStyle = Automatic;
 					};
 					141060241F25B9660072E3B7 = {
@@ -426,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2USTFU7E7;
 				INFOPLIST_FILE = Calendar_04/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.designgoorm.Calendar-04";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2USTFU7E7;
 				INFOPLIST_FILE = Calendar_04/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.designgoorm.Calendar-04";
 				PRODUCT_NAME = "$(TARGET_NAME)";

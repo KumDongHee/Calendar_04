@@ -60,9 +60,6 @@ class ViewController: UIViewController {
 //    let currentTime = Date.timeIntervalSinceReferenceDate
 //    var elapsedTime:TimeInterval = currentTime - startTime
     
-    
-    @IBOutlet weak var button01: UIButton!
-    
 
     
     
@@ -87,8 +84,8 @@ class ViewController: UIViewController {
         
         monthTextField.becomeFirstResponder()
         
-        button01.contentMode = UIViewContentMode.scaleAspectFit
-        button01.imageView?.contentMode = .scaleAspectFit // o
+//        button01.contentMode = UIViewContentMode.scaleAspectFit
+//        button01.imageView?.contentMode = .scaleAspectFit // o
 //        TimeLimitUIView.layer.anchorPoint = CGPoint(x:0,y:0)
 //        self.TimeLimitUIView.frame.origin.x = 50
 //        self.TimeLimitUIView.frame.origin.y = -2
@@ -239,7 +236,7 @@ class ViewController: UIViewController {
         }
 
         
-        UIView.animate(withDuration: Double(0.5), animations: {self.DisplayDigit.frame.origin.y += -40}) {
+        UIView.animate(withDuration: Double(0.5), animations: {self.DisplayDigit.frame.origin.y += -45}) {
             (true) in
             self.singleResultLightAnimation()
 //            self.DisplayDigitTopConstraint.constant = 20
